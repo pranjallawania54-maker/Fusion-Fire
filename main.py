@@ -65,7 +65,7 @@ st.title("🔥 Fire Detection AI")
 def load_ai_model():
 
     return load_model(
-        "keras_Model.h5",
+        "keras_model.h5",
         compile=False
     )
 
